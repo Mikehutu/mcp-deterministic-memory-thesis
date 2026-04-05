@@ -1,0 +1,3298 @@
+{
+  "description": "Comprehensive ground truth queries for expanded benchmark",
+  "generated_at": "2026-02-04T13:00:52.082937",
+  "data_source": "scripts/benchmark_data_expanded.json",
+  "statistics": {
+    "total_queries": 355,
+    "exact_match": 340,
+    "comparison": 10,
+    "trend": 5
+  },
+  "queries": [
+    {
+      "id": "Q0001",
+      "query": "What is Helsinki's population in 2020?",
+      "entity": "Helsinki",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 656920,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0002",
+      "query": "What is Helsinki's population in 2021?",
+      "entity": "Helsinki",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 658457,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0003",
+      "query": "What is Helsinki's population in 2022?",
+      "entity": "Helsinki",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 664028,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0004",
+      "query": "What is Helsinki's population in 2023?",
+      "entity": "Helsinki",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 674500,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0005",
+      "query": "What is Helsinki's population in 2024?",
+      "entity": "Helsinki",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 684018,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0006",
+      "query": "What is Helsinki's employed in 2020?",
+      "entity": "Helsinki",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 301908,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0007",
+      "query": "What is Helsinki's employed in 2021?",
+      "entity": "Helsinki",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 314578,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0008",
+      "query": "What is Helsinki's employed in 2022?",
+      "entity": "Helsinki",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 322759,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0009",
+      "query": "What is Helsinki's employed in 2023?",
+      "entity": "Helsinki",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 324589,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0010",
+      "query": "What is Helsinki's employed in 2024?",
+      "entity": "Helsinki",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 326112,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0011",
+      "query": "What is Helsinki's unemployed in 2020?",
+      "entity": "Helsinki",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 49698,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0012",
+      "query": "What is Helsinki's unemployed in 2021?",
+      "entity": "Helsinki",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 38507,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0013",
+      "query": "What is Helsinki's unemployed in 2022?",
+      "entity": "Helsinki",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 36288,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0014",
+      "query": "What is Helsinki's unemployed in 2023?",
+      "entity": "Helsinki",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 40370,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0015",
+      "query": "What is Helsinki's unemployed in 2024?",
+      "entity": "Helsinki",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 44735,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0016",
+      "query": "What is Helsinki's employment rate in 2020?",
+      "entity": "Helsinki",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 69.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0017",
+      "query": "What is Helsinki's employment rate in 2021?",
+      "entity": "Helsinki",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 72.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0018",
+      "query": "What is Helsinki's employment rate in 2022?",
+      "entity": "Helsinki",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 73.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0019",
+      "query": "What is Helsinki's employment rate in 2023?",
+      "entity": "Helsinki",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 72.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0020",
+      "query": "What is Helsinki's employment rate in 2024?",
+      "entity": "Helsinki",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 71.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0021",
+      "query": "What is Helsinki's unemployment rate in 2020?",
+      "entity": "Helsinki",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 14.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0022",
+      "query": "What is Helsinki's unemployment rate in 2021?",
+      "entity": "Helsinki",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 11.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0023",
+      "query": "What is Helsinki's unemployment rate in 2022?",
+      "entity": "Helsinki",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 10.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0024",
+      "query": "What is Helsinki's unemployment rate in 2023?",
+      "entity": "Helsinki",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 11.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0025",
+      "query": "What is Helsinki's unemployment rate in 2024?",
+      "entity": "Helsinki",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 12.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0026",
+      "query": "What is Helsinki's dependency ratio in 2020?",
+      "entity": "Helsinki",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 118.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0027",
+      "query": "What is Helsinki's dependency ratio in 2021?",
+      "entity": "Helsinki",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 109.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0028",
+      "query": "What is Helsinki's dependency ratio in 2022?",
+      "entity": "Helsinki",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 106.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0029",
+      "query": "What is Helsinki's dependency ratio in 2023?",
+      "entity": "Helsinki",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 108.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0030",
+      "query": "What is Helsinki's dependency ratio in 2024?",
+      "entity": "Helsinki",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 110.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0031",
+      "query": "What is Helsinki's median income in 2020?",
+      "entity": "Helsinki",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 34154.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0032",
+      "query": "What is Helsinki's median income in 2021?",
+      "entity": "Helsinki",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 34576.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0033",
+      "query": "What is Helsinki's median income in 2022?",
+      "entity": "Helsinki",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 33508.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0034",
+      "query": "What is Helsinki's median income in 2023?",
+      "entity": "Helsinki",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 32766.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0035",
+      "query": "What is Helsinki's median income in 2024?",
+      "entity": "Helsinki",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 33525.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0036",
+      "query": "What is Espoo's population in 2020?",
+      "entity": "Espoo",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 292796,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0037",
+      "query": "What is Espoo's population in 2021?",
+      "entity": "Espoo",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 297132,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0038",
+      "query": "What is Espoo's population in 2022?",
+      "entity": "Espoo",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 305274,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0039",
+      "query": "What is Espoo's population in 2023?",
+      "entity": "Espoo",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 314024,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0040",
+      "query": "What is Espoo's population in 2024?",
+      "entity": "Espoo",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 320931,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0041",
+      "query": "What is Espoo's employed in 2020?",
+      "entity": "Espoo",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 133254,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0042",
+      "query": "What is Espoo's employed in 2021?",
+      "entity": "Espoo",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 140042,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0043",
+      "query": "What is Espoo's employed in 2022?",
+      "entity": "Espoo",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 146707,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0044",
+      "query": "What is Espoo's employed in 2023?",
+      "entity": "Espoo",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 149683,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0045",
+      "query": "What is Espoo's employed in 2024?",
+      "entity": "Espoo",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 151301,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0046",
+      "query": "What is Espoo's unemployed in 2020?",
+      "entity": "Espoo",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 17321,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0047",
+      "query": "What is Espoo's unemployed in 2021?",
+      "entity": "Espoo",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 13711,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0048",
+      "query": "What is Espoo's unemployed in 2022?",
+      "entity": "Espoo",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 12914,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0049",
+      "query": "What is Espoo's unemployed in 2023?",
+      "entity": "Espoo",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 15027,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0050",
+      "query": "What is Espoo's unemployed in 2024?",
+      "entity": "Espoo",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 17255,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0051",
+      "query": "What is Espoo's employment rate in 2020?",
+      "entity": "Espoo",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 71.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0052",
+      "query": "What is Espoo's employment rate in 2021?",
+      "entity": "Espoo",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 74.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0053",
+      "query": "What is Espoo's employment rate in 2022?",
+      "entity": "Espoo",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 75.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0054",
+      "query": "What is Espoo's employment rate in 2023?",
+      "entity": "Espoo",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 74.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0055",
+      "query": "What is Espoo's employment rate in 2024?",
+      "entity": "Espoo",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 73.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0056",
+      "query": "What is Espoo's unemployment rate in 2020?",
+      "entity": "Espoo",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 11.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0057",
+      "query": "What is Espoo's unemployment rate in 2021?",
+      "entity": "Espoo",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 9.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0058",
+      "query": "What is Espoo's unemployment rate in 2022?",
+      "entity": "Espoo",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 8.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0059",
+      "query": "What is Espoo's unemployment rate in 2023?",
+      "entity": "Espoo",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 9.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0060",
+      "query": "What is Espoo's unemployment rate in 2024?",
+      "entity": "Espoo",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 10.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0061",
+      "query": "What is Espoo's dependency ratio in 2020?",
+      "entity": "Espoo",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 120.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0062",
+      "query": "What is Espoo's dependency ratio in 2021?",
+      "entity": "Espoo",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 112.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0063",
+      "query": "What is Espoo's dependency ratio in 2022?",
+      "entity": "Espoo",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 108.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0064",
+      "query": "What is Espoo's dependency ratio in 2023?",
+      "entity": "Espoo",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 110.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0065",
+      "query": "What is Espoo's dependency ratio in 2024?",
+      "entity": "Espoo",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 112.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0066",
+      "query": "What is Espoo's median income in 2020?",
+      "entity": "Espoo",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 37572.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0067",
+      "query": "What is Espoo's median income in 2021?",
+      "entity": "Espoo",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 37981.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0068",
+      "query": "What is Espoo's median income in 2022?",
+      "entity": "Espoo",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 36528.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0069",
+      "query": "What is Espoo's median income in 2023?",
+      "entity": "Espoo",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 35647.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0070",
+      "query": "What is Espoo's median income in 2024?",
+      "entity": "Espoo",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 36236.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0071",
+      "query": "What is Tampere's population in 2020?",
+      "entity": "Tampere",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 241009,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0072",
+      "query": "What is Tampere's population in 2021?",
+      "entity": "Tampere",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 244223,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0073",
+      "query": "What is Tampere's population in 2022?",
+      "entity": "Tampere",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 249009,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0074",
+      "query": "What is Tampere's population in 2023?",
+      "entity": "Tampere",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 255050,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0075",
+      "query": "What is Tampere's population in 2024?",
+      "entity": "Tampere",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 260180,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0076",
+      "query": "What is Tampere's employed in 2020?",
+      "entity": "Tampere",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 103625,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0077",
+      "query": "What is Tampere's employed in 2021?",
+      "entity": "Tampere",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 110431,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0078",
+      "query": "What is Tampere's employed in 2022?",
+      "entity": "Tampere",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 115260,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0079",
+      "query": "What is Tampere's employed in 2023?",
+      "entity": "Tampere",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 116465,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0080",
+      "query": "What is Tampere's employed in 2024?",
+      "entity": "Tampere",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 117885,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0081",
+      "query": "What is Tampere's unemployed in 2020?",
+      "entity": "Tampere",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 17841,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0082",
+      "query": "What is Tampere's unemployed in 2021?",
+      "entity": "Tampere",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 13552,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0083",
+      "query": "What is Tampere's unemployed in 2022?",
+      "entity": "Tampere",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 12603,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0084",
+      "query": "What is Tampere's unemployed in 2023?",
+      "entity": "Tampere",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 16075,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0085",
+      "query": "What is Tampere's unemployed in 2024?",
+      "entity": "Tampere",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 17686,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0086",
+      "query": "What is Tampere's employment rate in 2020?",
+      "entity": "Tampere",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 65.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0087",
+      "query": "What is Tampere's employment rate in 2021?",
+      "entity": "Tampere",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 68.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0088",
+      "query": "What is Tampere's employment rate in 2022?",
+      "entity": "Tampere",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 69.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0089",
+      "query": "What is Tampere's employment rate in 2023?",
+      "entity": "Tampere",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 68.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0090",
+      "query": "What is Tampere's employment rate in 2024?",
+      "entity": "Tampere",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 67.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0091",
+      "query": "What is Tampere's unemployment rate in 2020?",
+      "entity": "Tampere",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 14.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0092",
+      "query": "What is Tampere's unemployment rate in 2021?",
+      "entity": "Tampere",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 11.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0093",
+      "query": "What is Tampere's unemployment rate in 2022?",
+      "entity": "Tampere",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 10.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0094",
+      "query": "What is Tampere's unemployment rate in 2023?",
+      "entity": "Tampere",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 12.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0095",
+      "query": "What is Tampere's unemployment rate in 2024?",
+      "entity": "Tampere",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 13.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0096",
+      "query": "What is Tampere's dependency ratio in 2020?",
+      "entity": "Tampere",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 133.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0097",
+      "query": "What is Tampere's dependency ratio in 2021?",
+      "entity": "Tampere",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 121.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0098",
+      "query": "What is Tampere's dependency ratio in 2022?",
+      "entity": "Tampere",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 116.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0099",
+      "query": "What is Tampere's dependency ratio in 2023?",
+      "entity": "Tampere",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 119.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0100",
+      "query": "What is Tampere's dependency ratio in 2024?",
+      "entity": "Tampere",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 121.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0101",
+      "query": "What is Tampere's median income in 2020?",
+      "entity": "Tampere",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 29467.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0102",
+      "query": "What is Tampere's median income in 2021?",
+      "entity": "Tampere",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 29890.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0103",
+      "query": "What is Tampere's median income in 2022?",
+      "entity": "Tampere",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 28984.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0104",
+      "query": "What is Tampere's median income in 2023?",
+      "entity": "Tampere",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 28498.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0105",
+      "query": "What is Tampere's median income in 2024?",
+      "entity": "Tampere",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 29082.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0106",
+      "query": "What is Vantaa's population in 2020?",
+      "entity": "Vantaa",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 237231,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0107",
+      "query": "What is Vantaa's population in 2021?",
+      "entity": "Vantaa",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 239206,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0108",
+      "query": "What is Vantaa's population in 2022?",
+      "entity": "Vantaa",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 242819,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0109",
+      "query": "What is Vantaa's population in 2023?",
+      "entity": "Vantaa",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 247443,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0110",
+      "query": "What is Vantaa's population in 2024?",
+      "entity": "Vantaa",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 251269,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0111",
+      "query": "What is Vantaa's employed in 2020?",
+      "entity": "Vantaa",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 107972,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0112",
+      "query": "What is Vantaa's employed in 2021?",
+      "entity": "Vantaa",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 113300,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0113",
+      "query": "What is Vantaa's employed in 2022?",
+      "entity": "Vantaa",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 117742,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0114",
+      "query": "What is Vantaa's employed in 2023?",
+      "entity": "Vantaa",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 117611,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0115",
+      "query": "What is Vantaa's employed in 2024?",
+      "entity": "Vantaa",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 117082,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0116",
+      "query": "What is Vantaa's unemployed in 2020?",
+      "entity": "Vantaa",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 18116,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0117",
+      "query": "What is Vantaa's unemployed in 2021?",
+      "entity": "Vantaa",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 15080,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0118",
+      "query": "What is Vantaa's unemployed in 2022?",
+      "entity": "Vantaa",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 13659,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0119",
+      "query": "What is Vantaa's unemployed in 2023?",
+      "entity": "Vantaa",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 15681,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0120",
+      "query": "What is Vantaa's unemployed in 2024?",
+      "entity": "Vantaa",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 17717,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0121",
+      "query": "What is Vantaa's employment rate in 2020?",
+      "entity": "Vantaa",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 70.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0122",
+      "query": "What is Vantaa's employment rate in 2021?",
+      "entity": "Vantaa",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 73.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0123",
+      "query": "What is Vantaa's employment rate in 2022?",
+      "entity": "Vantaa",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 74.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0124",
+      "query": "What is Vantaa's employment rate in 2023?",
+      "entity": "Vantaa",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 72.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0125",
+      "query": "What is Vantaa's employment rate in 2024?",
+      "entity": "Vantaa",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 71.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0126",
+      "query": "What is Vantaa's median income in 2020?",
+      "entity": "Vantaa",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 32773.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0127",
+      "query": "What is Vantaa's median income in 2021?",
+      "entity": "Vantaa",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 32910.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0128",
+      "query": "What is Vantaa's median income in 2022?",
+      "entity": "Vantaa",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 31804.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0129",
+      "query": "What is Vantaa's median income in 2023?",
+      "entity": "Vantaa",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 31023.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0130",
+      "query": "What is Vantaa's median income in 2024?",
+      "entity": "Vantaa",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 31322.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0131",
+      "query": "What is Oulu's population in 2020?",
+      "entity": "Oulu",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 207327,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0132",
+      "query": "What is Oulu's population in 2021?",
+      "entity": "Oulu",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 209551,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0133",
+      "query": "What is Oulu's population in 2022?",
+      "entity": "Oulu",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 211848,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0134",
+      "query": "What is Oulu's population in 2023?",
+      "entity": "Oulu",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 214633,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0135",
+      "query": "What is Oulu's population in 2024?",
+      "entity": "Oulu",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 216152,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0136",
+      "query": "What is Oulu's employed in 2020?",
+      "entity": "Oulu",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 87409,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0137",
+      "query": "What is Oulu's employed in 2021?",
+      "entity": "Oulu",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 90795,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0138",
+      "query": "What is Oulu's employed in 2022?",
+      "entity": "Oulu",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 93276,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0139",
+      "query": "What is Oulu's employed in 2023?",
+      "entity": "Oulu",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 93504,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0140",
+      "query": "What is Oulu's employed in 2024?",
+      "entity": "Oulu",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 94605,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0141",
+      "query": "What is Oulu's unemployed in 2020?",
+      "entity": "Oulu",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 14244,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0142",
+      "query": "What is Oulu's unemployed in 2021?",
+      "entity": "Oulu",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 12046,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0143",
+      "query": "What is Oulu's unemployed in 2022?",
+      "entity": "Oulu",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 12605,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0144",
+      "query": "What is Oulu's unemployed in 2023?",
+      "entity": "Oulu",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 14083,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0145",
+      "query": "What is Oulu's unemployed in 2024?",
+      "entity": "Oulu",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 14762,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0146",
+      "query": "What is Oulu's employment rate in 2020?",
+      "entity": "Oulu",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 66.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0147",
+      "query": "What is Oulu's employment rate in 2021?",
+      "entity": "Oulu",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 68.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0148",
+      "query": "What is Oulu's employment rate in 2022?",
+      "entity": "Oulu",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 69.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0149",
+      "query": "What is Oulu's employment rate in 2023?",
+      "entity": "Oulu",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 68.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0150",
+      "query": "What is Oulu's employment rate in 2024?",
+      "entity": "Oulu",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 68.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0151",
+      "query": "What is Oulu's unemployment rate in 2020?",
+      "entity": "Oulu",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 14.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0152",
+      "query": "What is Oulu's unemployment rate in 2021?",
+      "entity": "Oulu",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 11.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0153",
+      "query": "What is Oulu's unemployment rate in 2022?",
+      "entity": "Oulu",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 12.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0154",
+      "query": "What is Oulu's unemployment rate in 2023?",
+      "entity": "Oulu",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 13.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0155",
+      "query": "What is Oulu's unemployment rate in 2024?",
+      "entity": "Oulu",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 13.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0156",
+      "query": "What is Oulu's dependency ratio in 2020?",
+      "entity": "Oulu",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 137.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0157",
+      "query": "What is Oulu's dependency ratio in 2021?",
+      "entity": "Oulu",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 131.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0158",
+      "query": "What is Oulu's dependency ratio in 2022?",
+      "entity": "Oulu",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 127.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0159",
+      "query": "What is Oulu's dependency ratio in 2023?",
+      "entity": "Oulu",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 130.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0160",
+      "query": "What is Oulu's dependency ratio in 2024?",
+      "entity": "Oulu",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 128.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0161",
+      "query": "What is Oulu's median income in 2020?",
+      "entity": "Oulu",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 30258.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0162",
+      "query": "What is Oulu's median income in 2021?",
+      "entity": "Oulu",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 30482.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0163",
+      "query": "What is Oulu's median income in 2022?",
+      "entity": "Oulu",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 29552.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0164",
+      "query": "What is Oulu's median income in 2023?",
+      "entity": "Oulu",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 29124.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0165",
+      "query": "What is Oulu's median income in 2024?",
+      "entity": "Oulu",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 29772.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0166",
+      "query": "What is Turku's population in 2020?",
+      "entity": "Turku",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 194391,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0167",
+      "query": "What is Turku's population in 2021?",
+      "entity": "Turku",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 195137,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0168",
+      "query": "What is Turku's population in 2022?",
+      "entity": "Turku",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 197900,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0169",
+      "query": "What is Turku's population in 2023?",
+      "entity": "Turku",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 201863,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0170",
+      "query": "What is Turku's population in 2024?",
+      "entity": "Turku",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 206073,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0171",
+      "query": "What is Turku's employed in 2020?",
+      "entity": "Turku",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 80746,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0172",
+      "query": "What is Turku's employed in 2021?",
+      "entity": "Turku",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 85122,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0173",
+      "query": "What is Turku's employed in 2022?",
+      "entity": "Turku",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 88595,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0174",
+      "query": "What is Turku's employed in 2023?",
+      "entity": "Turku",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 90315,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0175",
+      "query": "What is Turku's employed in 2024?",
+      "entity": "Turku",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 90794,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0176",
+      "query": "What is Turku's unemployed in 2020?",
+      "entity": "Turku",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 15303,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0177",
+      "query": "What is Turku's unemployed in 2021?",
+      "entity": "Turku",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 12256,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0178",
+      "query": "What is Turku's unemployed in 2022?",
+      "entity": "Turku",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 11520,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0179",
+      "query": "What is Turku's unemployed in 2023?",
+      "entity": "Turku",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 12400,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0180",
+      "query": "What is Turku's unemployed in 2024?",
+      "entity": "Turku",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 14639,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0181",
+      "query": "What is Turku's employment rate in 2020?",
+      "entity": "Turku",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 63.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0182",
+      "query": "What is Turku's employment rate in 2021?",
+      "entity": "Turku",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 67.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0183",
+      "query": "What is Turku's employment rate in 2022?",
+      "entity": "Turku",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 68.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0184",
+      "query": "What is Turku's employment rate in 2023?",
+      "entity": "Turku",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 68.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0185",
+      "query": "What is Turku's employment rate in 2024?",
+      "entity": "Turku",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 66.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0186",
+      "query": "What is Turku's unemployment rate in 2020?",
+      "entity": "Turku",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 16.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0187",
+      "query": "What is Turku's unemployment rate in 2021?",
+      "entity": "Turku",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 12.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0188",
+      "query": "What is Turku's unemployment rate in 2022?",
+      "entity": "Turku",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 11.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0189",
+      "query": "What is Turku's unemployment rate in 2023?",
+      "entity": "Turku",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 12.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0190",
+      "query": "What is Turku's unemployment rate in 2024?",
+      "entity": "Turku",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 14.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0191",
+      "query": "What is Turku's dependency ratio in 2020?",
+      "entity": "Turku",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 141.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0192",
+      "query": "What is Turku's dependency ratio in 2021?",
+      "entity": "Turku",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 129.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0193",
+      "query": "What is Turku's dependency ratio in 2022?",
+      "entity": "Turku",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 123.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0194",
+      "query": "What is Turku's dependency ratio in 2023?",
+      "entity": "Turku",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 124.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0195",
+      "query": "What is Turku's dependency ratio in 2024?",
+      "entity": "Turku",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 127.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0196",
+      "query": "What is Turku's median income in 2020?",
+      "entity": "Turku",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 28671.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0197",
+      "query": "What is Turku's median income in 2021?",
+      "entity": "Turku",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 28994.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0198",
+      "query": "What is Turku's median income in 2022?",
+      "entity": "Turku",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 28118.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0199",
+      "query": "What is Turku's median income in 2023?",
+      "entity": "Turku",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 27582.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0200",
+      "query": "What is Turku's median income in 2024?",
+      "entity": "Turku",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 28089.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0201",
+      "query": "What is Jyväskylä's population in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 143420,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0202",
+      "query": "What is Jyväskylä's population in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 144473,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0203",
+      "query": "What is Jyväskylä's population in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 145887,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0204",
+      "query": "What is Jyväskylä's population in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 147746,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0205",
+      "query": "What is Jyväskylä's population in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 149194,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0206",
+      "query": "What is Jyväskylä's employed in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 58657,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0207",
+      "query": "What is Jyväskylä's employed in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 61169,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0208",
+      "query": "What is Jyväskylä's employed in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 63193,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0209",
+      "query": "What is Jyväskylä's employed in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 62937,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0210",
+      "query": "What is Jyväskylä's employed in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 63052,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0211",
+      "query": "What is Jyväskylä's unemployed in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 11129,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0212",
+      "query": "What is Jyväskylä's unemployed in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 9383,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0213",
+      "query": "What is Jyväskylä's unemployed in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 8869,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0214",
+      "query": "What is Jyväskylä's unemployed in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 10362,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0215",
+      "query": "What is Jyväskylä's unemployed in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 11252,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0216",
+      "query": "What is Jyväskylä's employment rate in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 64.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0217",
+      "query": "What is Jyväskylä's employment rate in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 66.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0218",
+      "query": "What is Jyväskylä's employment rate in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 67.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0219",
+      "query": "What is Jyväskylä's employment rate in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 66.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0220",
+      "query": "What is Jyväskylä's employment rate in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 65.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0221",
+      "query": "What is Jyväskylä's unemployment rate in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 16.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0222",
+      "query": "What is Jyväskylä's unemployment rate in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 13.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0223",
+      "query": "What is Jyväskylä's unemployment rate in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 12.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0224",
+      "query": "What is Jyväskylä's unemployment rate in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 14.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0225",
+      "query": "What is Jyväskylä's unemployment rate in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 15.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0226",
+      "query": "What is Jyväskylä's dependency ratio in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 145.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0227",
+      "query": "What is Jyväskylä's dependency ratio in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 136.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0228",
+      "query": "What is Jyväskylä's dependency ratio in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 131.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0229",
+      "query": "What is Jyväskylä's dependency ratio in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 135.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0230",
+      "query": "What is Jyväskylä's dependency ratio in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 137.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0231",
+      "query": "What is Jyväskylä's median income in 2020?",
+      "entity": "Jyväskylä",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 29225.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0232",
+      "query": "What is Jyväskylä's median income in 2021?",
+      "entity": "Jyväskylä",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 29524.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0233",
+      "query": "What is Jyväskylä's median income in 2022?",
+      "entity": "Jyväskylä",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 28559.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0234",
+      "query": "What is Jyväskylä's median income in 2023?",
+      "entity": "Jyväskylä",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 28129.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0235",
+      "query": "What is Jyväskylä's median income in 2024?",
+      "entity": "Jyväskylä",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 28603.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0236",
+      "query": "What is Lahti's population in 2020?",
+      "entity": "Lahti",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 119984,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0237",
+      "query": "What is Lahti's population in 2021?",
+      "entity": "Lahti",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 120027,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0238",
+      "query": "What is Lahti's population in 2022?",
+      "entity": "Lahti",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 120175,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0239",
+      "query": "What is Lahti's population in 2023?",
+      "entity": "Lahti",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 120693,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0240",
+      "query": "What is Lahti's population in 2024?",
+      "entity": "Lahti",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 121337,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0241",
+      "query": "What is Lahti's employed in 2020?",
+      "entity": "Lahti",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 45828,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0242",
+      "query": "What is Lahti's employed in 2021?",
+      "entity": "Lahti",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 47946,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0243",
+      "query": "What is Lahti's employed in 2022?",
+      "entity": "Lahti",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 48752,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0244",
+      "query": "What is Lahti's employed in 2023?",
+      "entity": "Lahti",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 48395,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0245",
+      "query": "What is Lahti's employed in 2024?",
+      "entity": "Lahti",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 48226,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0246",
+      "query": "What is Lahti's unemployed in 2020?",
+      "entity": "Lahti",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 9981,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0247",
+      "query": "What is Lahti's unemployed in 2021?",
+      "entity": "Lahti",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 8162,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0248",
+      "query": "What is Lahti's unemployed in 2022?",
+      "entity": "Lahti",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 7727,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0249",
+      "query": "What is Lahti's unemployed in 2023?",
+      "entity": "Lahti",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 8298,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0250",
+      "query": "What is Lahti's unemployed in 2024?",
+      "entity": "Lahti",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 9028,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0251",
+      "query": "What is Lahti's employment rate in 2020?",
+      "entity": "Lahti",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 65.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0252",
+      "query": "What is Lahti's employment rate in 2021?",
+      "entity": "Lahti",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 68.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0253",
+      "query": "What is Lahti's employment rate in 2022?",
+      "entity": "Lahti",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 69.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0254",
+      "query": "What is Lahti's employment rate in 2023?",
+      "entity": "Lahti",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 68.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0255",
+      "query": "What is Lahti's employment rate in 2024?",
+      "entity": "Lahti",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 67.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0256",
+      "query": "What is Lahti's unemployment rate in 2020?",
+      "entity": "Lahti",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 18.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0257",
+      "query": "What is Lahti's unemployment rate in 2021?",
+      "entity": "Lahti",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 14.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0258",
+      "query": "What is Lahti's unemployment rate in 2022?",
+      "entity": "Lahti",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 13.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0259",
+      "query": "What is Lahti's unemployment rate in 2023?",
+      "entity": "Lahti",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 14.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0260",
+      "query": "What is Lahti's unemployment rate in 2024?",
+      "entity": "Lahti",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 16.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0261",
+      "query": "What is Lahti's dependency ratio in 2020?",
+      "entity": "Lahti",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 162.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0262",
+      "query": "What is Lahti's dependency ratio in 2021?",
+      "entity": "Lahti",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 150.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0263",
+      "query": "What is Lahti's dependency ratio in 2022?",
+      "entity": "Lahti",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 147.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0264",
+      "query": "What is Lahti's dependency ratio in 2023?",
+      "entity": "Lahti",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 149.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0265",
+      "query": "What is Lahti's dependency ratio in 2024?",
+      "entity": "Lahti",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 152.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0266",
+      "query": "What is Lahti's median income in 2020?",
+      "entity": "Lahti",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 28967.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0267",
+      "query": "What is Lahti's median income in 2021?",
+      "entity": "Lahti",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 29288.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0268",
+      "query": "What is Lahti's median income in 2022?",
+      "entity": "Lahti",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 28347.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0269",
+      "query": "What is Lahti's median income in 2023?",
+      "entity": "Lahti",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 27770.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0270",
+      "query": "What is Lahti's median income in 2024?",
+      "entity": "Lahti",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 28461.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0271",
+      "query": "What is Kuopio's population in 2020?",
+      "entity": "Kuopio",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 120210,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0272",
+      "query": "What is Kuopio's population in 2021?",
+      "entity": "Kuopio",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 121543,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0273",
+      "query": "What is Kuopio's population in 2022?",
+      "entity": "Kuopio",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 122594,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0274",
+      "query": "What is Kuopio's population in 2023?",
+      "entity": "Kuopio",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 124021,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0275",
+      "query": "What is Kuopio's population in 2024?",
+      "entity": "Kuopio",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 125666,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0276",
+      "query": "What is Kuopio's employed in 2020?",
+      "entity": "Kuopio",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 50073,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0277",
+      "query": "What is Kuopio's employed in 2021?",
+      "entity": "Kuopio",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 52432,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0278",
+      "query": "What is Kuopio's employed in 2022?",
+      "entity": "Kuopio",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 53779,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0279",
+      "query": "What is Kuopio's employed in 2023?",
+      "entity": "Kuopio",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 53782,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0280",
+      "query": "What is Kuopio's employed in 2024?",
+      "entity": "Kuopio",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 54060,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0281",
+      "query": "What is Kuopio's unemployed in 2020?",
+      "entity": "Kuopio",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 7500,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0282",
+      "query": "What is Kuopio's unemployed in 2021?",
+      "entity": "Kuopio",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 6084,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0283",
+      "query": "What is Kuopio's unemployed in 2022?",
+      "entity": "Kuopio",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 5882,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0284",
+      "query": "What is Kuopio's unemployed in 2023?",
+      "entity": "Kuopio",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 6799,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0285",
+      "query": "What is Kuopio's unemployed in 2024?",
+      "entity": "Kuopio",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 7508,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0286",
+      "query": "What is Kuopio's employment rate in 2020?",
+      "entity": "Kuopio",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 67.7,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0287",
+      "query": "What is Kuopio's employment rate in 2021?",
+      "entity": "Kuopio",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 70.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0288",
+      "query": "What is Kuopio's employment rate in 2022?",
+      "entity": "Kuopio",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 71.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0289",
+      "query": "What is Kuopio's employment rate in 2023?",
+      "entity": "Kuopio",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 70.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0290",
+      "query": "What is Kuopio's employment rate in 2024?",
+      "entity": "Kuopio",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 69.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0291",
+      "query": "What is Kuopio's unemployment rate in 2020?",
+      "entity": "Kuopio",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 13.2,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0292",
+      "query": "What is Kuopio's unemployment rate in 2021?",
+      "entity": "Kuopio",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 10.5,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0293",
+      "query": "What is Kuopio's unemployment rate in 2022?",
+      "entity": "Kuopio",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 10.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0294",
+      "query": "What is Kuopio's unemployment rate in 2023?",
+      "entity": "Kuopio",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 11.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0295",
+      "query": "What is Kuopio's unemployment rate in 2024?",
+      "entity": "Kuopio",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 12.4,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0296",
+      "query": "What is Kuopio's dependency ratio in 2020?",
+      "entity": "Kuopio",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 140.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0297",
+      "query": "What is Kuopio's dependency ratio in 2021?",
+      "entity": "Kuopio",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 132.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0298",
+      "query": "What is Kuopio's dependency ratio in 2022?",
+      "entity": "Kuopio",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 128.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0299",
+      "query": "What is Kuopio's dependency ratio in 2023?",
+      "entity": "Kuopio",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 131.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0300",
+      "query": "What is Kuopio's dependency ratio in 2024?",
+      "entity": "Kuopio",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 132.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0301",
+      "query": "What is Kuopio's median income in 2020?",
+      "entity": "Kuopio",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 29976.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0302",
+      "query": "What is Kuopio's median income in 2021?",
+      "entity": "Kuopio",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 30260.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0303",
+      "query": "What is Kuopio's median income in 2022?",
+      "entity": "Kuopio",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 29333.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0304",
+      "query": "What is Kuopio's median income in 2023?",
+      "entity": "Kuopio",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 28918.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0305",
+      "query": "What is Kuopio's median income in 2024?",
+      "entity": "Kuopio",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 29532.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0306",
+      "query": "What is Pori's population in 2020?",
+      "entity": "Pori",
+      "metric": "population",
+      "year": 2020,
+      "expected_value": 83684,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0307",
+      "query": "What is Pori's population in 2021?",
+      "entity": "Pori",
+      "metric": "population",
+      "year": 2021,
+      "expected_value": 83482,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0308",
+      "query": "What is Pori's population in 2022?",
+      "entity": "Pori",
+      "metric": "population",
+      "year": 2022,
+      "expected_value": 83205,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0309",
+      "query": "What is Pori's population in 2023?",
+      "entity": "Pori",
+      "metric": "population",
+      "year": 2023,
+      "expected_value": 83106,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0310",
+      "query": "What is Pori's population in 2024?",
+      "entity": "Pori",
+      "metric": "population",
+      "year": 2024,
+      "expected_value": 83305,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0311",
+      "query": "What is Pori's employed in 2020?",
+      "entity": "Pori",
+      "metric": "employed",
+      "year": 2020,
+      "expected_value": 32021,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0312",
+      "query": "What is Pori's employed in 2021?",
+      "entity": "Pori",
+      "metric": "employed",
+      "year": 2021,
+      "expected_value": 33504,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0313",
+      "query": "What is Pori's employed in 2022?",
+      "entity": "Pori",
+      "metric": "employed",
+      "year": 2022,
+      "expected_value": 33806,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0314",
+      "query": "What is Pori's employed in 2023?",
+      "entity": "Pori",
+      "metric": "employed",
+      "year": 2023,
+      "expected_value": 33473,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0315",
+      "query": "What is Pori's employed in 2024?",
+      "entity": "Pori",
+      "metric": "employed",
+      "year": 2024,
+      "expected_value": 33603,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0316",
+      "query": "What is Pori's unemployed in 2020?",
+      "entity": "Pori",
+      "metric": "unemployed",
+      "year": 2020,
+      "expected_value": 6059,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0317",
+      "query": "What is Pori's unemployed in 2021?",
+      "entity": "Pori",
+      "metric": "unemployed",
+      "year": 2021,
+      "expected_value": 4503,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0318",
+      "query": "What is Pori's unemployed in 2022?",
+      "entity": "Pori",
+      "metric": "unemployed",
+      "year": 2022,
+      "expected_value": 4569,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0319",
+      "query": "What is Pori's unemployed in 2023?",
+      "entity": "Pori",
+      "metric": "unemployed",
+      "year": 2023,
+      "expected_value": 5054,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0320",
+      "query": "What is Pori's unemployed in 2024?",
+      "entity": "Pori",
+      "metric": "unemployed",
+      "year": 2024,
+      "expected_value": 5398,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0321",
+      "query": "What is Pori's employment rate in 2020?",
+      "entity": "Pori",
+      "metric": "employment_rate",
+      "year": 2020,
+      "expected_value": 66.6,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0322",
+      "query": "What is Pori's employment rate in 2021?",
+      "entity": "Pori",
+      "metric": "employment_rate",
+      "year": 2021,
+      "expected_value": 70.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0323",
+      "query": "What is Pori's employment rate in 2022?",
+      "entity": "Pori",
+      "metric": "employment_rate",
+      "year": 2022,
+      "expected_value": 70.8,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0324",
+      "query": "What is Pori's employment rate in 2023?",
+      "entity": "Pori",
+      "metric": "employment_rate",
+      "year": 2023,
+      "expected_value": 70.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0325",
+      "query": "What is Pori's employment rate in 2024?",
+      "entity": "Pori",
+      "metric": "employment_rate",
+      "year": 2024,
+      "expected_value": 69.9,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0326",
+      "query": "What is Pori's unemployment rate in 2020?",
+      "entity": "Pori",
+      "metric": "unemployment_rate",
+      "year": 2020,
+      "expected_value": 16.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0327",
+      "query": "What is Pori's unemployment rate in 2021?",
+      "entity": "Pori",
+      "metric": "unemployment_rate",
+      "year": 2021,
+      "expected_value": 12.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0328",
+      "query": "What is Pori's unemployment rate in 2022?",
+      "entity": "Pori",
+      "metric": "unemployment_rate",
+      "year": 2022,
+      "expected_value": 12.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0329",
+      "query": "What is Pori's unemployment rate in 2023?",
+      "entity": "Pori",
+      "metric": "unemployment_rate",
+      "year": 2023,
+      "expected_value": 13.3,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0330",
+      "query": "What is Pori's unemployment rate in 2024?",
+      "entity": "Pori",
+      "metric": "unemployment_rate",
+      "year": 2024,
+      "expected_value": 14.1,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0331",
+      "query": "What is Pori's dependency ratio in 2020?",
+      "entity": "Pori",
+      "metric": "dependency_ratio",
+      "year": 2020,
+      "expected_value": 161.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0332",
+      "query": "What is Pori's dependency ratio in 2021?",
+      "entity": "Pori",
+      "metric": "dependency_ratio",
+      "year": 2021,
+      "expected_value": 149.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0333",
+      "query": "What is Pori's dependency ratio in 2022?",
+      "entity": "Pori",
+      "metric": "dependency_ratio",
+      "year": 2022,
+      "expected_value": 146.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0334",
+      "query": "What is Pori's dependency ratio in 2023?",
+      "entity": "Pori",
+      "metric": "dependency_ratio",
+      "year": 2023,
+      "expected_value": 148.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0335",
+      "query": "What is Pori's dependency ratio in 2024?",
+      "entity": "Pori",
+      "metric": "dependency_ratio",
+      "year": 2024,
+      "expected_value": 148.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0336",
+      "query": "What is Pori's median income in 2020?",
+      "entity": "Pori",
+      "metric": "median_income",
+      "year": 2020,
+      "expected_value": 29270.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0337",
+      "query": "What is Pori's median income in 2021?",
+      "entity": "Pori",
+      "metric": "median_income",
+      "year": 2021,
+      "expected_value": 29359.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0338",
+      "query": "What is Pori's median income in 2022?",
+      "entity": "Pori",
+      "metric": "median_income",
+      "year": 2022,
+      "expected_value": 28455.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0339",
+      "query": "What is Pori's median income in 2023?",
+      "entity": "Pori",
+      "metric": "median_income",
+      "year": 2023,
+      "expected_value": 28114.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0340",
+      "query": "What is Pori's median income in 2024?",
+      "entity": "Pori",
+      "metric": "median_income",
+      "year": 2024,
+      "expected_value": 28783.0,
+      "category": "exact_match"
+    },
+    {
+      "id": "Q0341",
+      "query": "Compare the population of Helsinki and Espoo in 2024",
+      "entity": [
+        "Helsinki",
+        "Espoo"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Helsinki": 684018,
+        "Espoo": 320931
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0342",
+      "query": "Compare the population of Helsinki and Tampere in 2024",
+      "entity": [
+        "Helsinki",
+        "Tampere"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Helsinki": 684018,
+        "Tampere": 260180
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0343",
+      "query": "Compare the population of Helsinki and Vantaa in 2024",
+      "entity": [
+        "Helsinki",
+        "Vantaa"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Helsinki": 684018,
+        "Vantaa": 251269
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0344",
+      "query": "Compare the population of Helsinki and Oulu in 2024",
+      "entity": [
+        "Helsinki",
+        "Oulu"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Helsinki": 684018,
+        "Oulu": 216152
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0345",
+      "query": "Compare the population of Espoo and Tampere in 2024",
+      "entity": [
+        "Espoo",
+        "Tampere"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Espoo": 320931,
+        "Tampere": 260180
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0346",
+      "query": "Compare the population of Espoo and Vantaa in 2024",
+      "entity": [
+        "Espoo",
+        "Vantaa"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Espoo": 320931,
+        "Vantaa": 251269
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0347",
+      "query": "Compare the population of Espoo and Oulu in 2024",
+      "entity": [
+        "Espoo",
+        "Oulu"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Espoo": 320931,
+        "Oulu": 216152
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0348",
+      "query": "Compare the population of Tampere and Vantaa in 2024",
+      "entity": [
+        "Tampere",
+        "Vantaa"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Tampere": 260180,
+        "Vantaa": 251269
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0349",
+      "query": "Compare the population of Tampere and Oulu in 2024",
+      "entity": [
+        "Tampere",
+        "Oulu"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Tampere": 260180,
+        "Oulu": 216152
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0350",
+      "query": "Compare the population of Vantaa and Oulu in 2024",
+      "entity": [
+        "Vantaa",
+        "Oulu"
+      ],
+      "metric": "population",
+      "year": 2024,
+      "expected_value": {
+        "Vantaa": 251269,
+        "Oulu": 216152
+      },
+      "category": "comparison"
+    },
+    {
+      "id": "Q0351",
+      "query": "What is the population trend for Helsinki from 2020 to 2024?",
+      "entity": "Helsinki",
+      "metric": "population_trend",
+      "year": null,
+      "expected_value": {
+        "2020": 656920,
+        "2021": 658457,
+        "2022": 664028,
+        "2023": 674500,
+        "2024": 684018
+      },
+      "category": "trend"
+    },
+    {
+      "id": "Q0352",
+      "query": "What is the population trend for Espoo from 2020 to 2024?",
+      "entity": "Espoo",
+      "metric": "population_trend",
+      "year": null,
+      "expected_value": {
+        "2020": 292796,
+        "2021": 297132,
+        "2022": 305274,
+        "2023": 314024,
+        "2024": 320931
+      },
+      "category": "trend"
+    },
+    {
+      "id": "Q0353",
+      "query": "What is the population trend for Tampere from 2020 to 2024?",
+      "entity": "Tampere",
+      "metric": "population_trend",
+      "year": null,
+      "expected_value": {
+        "2020": 241009,
+        "2021": 244223,
+        "2022": 249009,
+        "2023": 255050,
+        "2024": 260180
+      },
+      "category": "trend"
+    },
+    {
+      "id": "Q0354",
+      "query": "What is the population trend for Vantaa from 2020 to 2024?",
+      "entity": "Vantaa",
+      "metric": "population_trend",
+      "year": null,
+      "expected_value": {
+        "2020": 237231,
+        "2021": 239206,
+        "2022": 242819,
+        "2023": 247443,
+        "2024": 251269
+      },
+      "category": "trend"
+    },
+    {
+      "id": "Q0355",
+      "query": "What is the population trend for Oulu from 2020 to 2024?",
+      "entity": "Oulu",
+      "metric": "population_trend",
+      "year": null,
+      "expected_value": {
+        "2020": 207327,
+        "2021": 209551,
+        "2022": 211848,
+        "2023": 214633,
+        "2024": 216152
+      },
+      "category": "trend"
+    }
+  ]
+}

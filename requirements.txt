@@ -1,0 +1,49 @@
+# =============================================================================
+# Thesis PoC — Python Dependencies
+# =============================================================================
+
+# MCP Framework
+mcp>=1.0.0
+fastmcp>=0.2.0
+
+# Data Validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# HTTP Client (StatFin PxWeb API)
+httpx>=0.25.0
+
+# Neo4j (Deterministic Memory)
+neo4j>=5.15.0
+
+# Logging
+structlog>=23.0.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Data Processing (benchmark scripts)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# =============================================================================
+# COMPARISON SYSTEMS — only required to reproduce the full benchmark
+# =============================================================================
+
+# Mem0 — Semantic Memory (requires OPENAI_API_KEY)
+mem0ai>=0.1.0
+
+# Qdrant — Vector Store for Mem0 and Basic RAG
+qdrant-client>=1.7.0
+
+# Graphiti by Zep — Temporal Knowledge Graph (requires OPENAI_API_KEY)
+graphiti-core>=0.5.0
+
+# OpenAI — Used by Mem0 and Graphiti
+openai>=1.0.0
+
+# =============================================================================
+# DEVELOPMENT & TESTING
+# =============================================================================
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

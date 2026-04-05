@@ -1,0 +1,99 @@
+# =============================================================================
+# Thesis PoC — Docker Compose
+# MCP Deterministic Memory: Statistics Finland + Neo4j
+#
+# Copy .env.example → .env and set your passwords before running.
+# =============================================================================
+
+version: '3.8'
+
+services:
+
+  # ---------------------------------------------------------------------------
+  # DETERMINISTIC MEMORY: Neo4j (primary system under evaluation)
+  # ---------------------------------------------------------------------------
+  neo4j:
+    image: neo4j:5.26.0-community
+    container_name: neo4j-deterministic
+    ports:
+      - "7474:7474"   # HTTP browser
+      - "7687:7687"   # Bolt protocol
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD}
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: apoc.*
+      NEO4J_dbms_security_procedures_allowlist: apoc.*
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 2G
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_plugins:/plugins
+    networks:
+      - memory-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "${NEO4J_PASSWORD}", "RETURN 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ---------------------------------------------------------------------------
+  # MEM0 COMPARISON: Qdrant vector store
+  # ---------------------------------------------------------------------------
+  qdrant:
+    image: qdrant/qdrant:v1.12.0
+    container_name: qdrant-mem0
+    ports:
+      - "6333:6333"   # HTTP API
+      - "6334:6334"   # gRPC
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - memory-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ---------------------------------------------------------------------------
+  # GRAPHITI BY ZEP COMPARISON: Isolated Neo4j instance
+  # ---------------------------------------------------------------------------
+  neo4j-graphiti:
+    image: neo4j:5.26.0-community
+    container_name: neo4j-graphiti
+    ports:
+      - "7476:7474"   # HTTP (offset to avoid conflict)
+      - "7689:7687"   # Bolt (offset to avoid conflict)
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_GRAPHITI_PASSWORD}
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: apoc.*
+      NEO4J_dbms_security_procedures_allowlist: apoc.*
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 2G
+    volumes:
+      - neo4j_graphiti_data:/data
+      - neo4j_graphiti_logs:/logs
+    networks:
+      - memory-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "${NEO4J_GRAPHITI_PASSWORD}", "RETURN 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_plugins:
+  qdrant_data:
+  neo4j_graphiti_data:
+  neo4j_graphiti_logs:
+
+networks:
+  memory-network:
+    driver: bridge

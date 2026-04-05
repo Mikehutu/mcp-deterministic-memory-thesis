@@ -1,0 +1,141 @@
+{
+  "benchmark_date": "2026-02-04T11:19:11.156714+00:00",
+  "systems": {
+    "Deterministic (Cypher)": {
+      "ingestion": {
+        "total_time_ms": 3620.7778509997297,
+        "avg_time_ms": 362.07778509997297,
+        "entities_ingested": 10,
+        "metrics_ingested": 340
+      },
+      "retrieval": {
+        "p50_latency_ms": 3.793007999775,
+        "p95_latency_ms": 5.1628660003189,
+        "p99_latency_ms": 5.856595998920966,
+        "avg_latency_ms": 3.962718113056642
+      },
+      "accuracy": {
+        "queries_total": 345,
+        "exact_matches": 340,
+        "exact_match_rate": "98.6%",
+        "semantic_matches": 340,
+        "semantic_match_rate": "98.6%"
+      },
+      "cost": {
+        "total_tokens": 0,
+        "estimated_cost_usd": "$0.0000"
+      },
+      "traceability": {
+        "lineage_available": true,
+        "source_attribution_rate": "90.0%"
+      }
+    },
+    "Mem0 (Semantic)": {
+      "ingestion": {
+        "total_time_ms": 625000,
+        "avg_time_ms": 6176.5,
+        "entities_ingested": 3,
+        "metrics_ingested": 64,
+        "notes": "Benchmark terminated - ingestion too slow. 3 of 10 cities completed in 10.5 minutes."
+      },
+      "retrieval": {
+        "p50_latency_ms": 335.0,
+        "p95_latency_ms": 550.0,
+        "p99_latency_ms": 1260.0,
+        "avg_latency_ms": 335.0
+      },
+      "accuracy": {
+        "queries_total": 4,
+        "exact_matches": 2,
+        "exact_match_rate": "50.0%",
+        "semantic_matches": 2,
+        "semantic_match_rate": "50.0%",
+        "notes": "Tested on partial data (3 cities). Issues: semantic confusion (wrong metric returned), possible data corruption."
+      },
+      "cost": {
+        "total_tokens": 50000,
+        "estimated_cost_usd": "$0.15",
+        "notes": "Extrapolated cost for full 340 metrics"
+      },
+      "traceability": {
+        "lineage_available": false,
+        "source_attribution_rate": "0.0%"
+      },
+      "benchmark_status": "TERMINATED - Impractical ingestion time"
+    },
+    "Graphiti (Zep)": {
+      "ingestion": {
+        "total_time_ms": 76794.69843600054,
+        "avg_time_ms": 7679.469843600054,
+        "entities_ingested": 10,
+        "metrics_ingested": 340
+      },
+      "retrieval": {
+        "p50_latency_ms": 308.63559099998383,
+        "p95_latency_ms": 550.1658499997575,
+        "p99_latency_ms": 696.5257939991716,
+        "avg_latency_ms": 330.9532236405294
+      },
+      "accuracy": {
+        "queries_total": 345,
+        "exact_matches": 0,
+        "exact_match_rate": "0.0%",
+        "semantic_matches": 0,
+        "semantic_match_rate": "0.0%"
+      },
+      "cost": {
+        "total_tokens": 45176,
+        "estimated_cost_usd": "$0.0075"
+      },
+      "traceability": {
+        "lineage_available": true,
+        "source_attribution_rate": "100.0%"
+      }
+    },
+    "Basic RAG (Vector)": {
+      "ingestion": {
+        "total_time_ms": 102164.18062700359,
+        "avg_time_ms": 10216.418062700359,
+        "entities_ingested": 10,
+        "metrics_ingested": 340
+      },
+      "retrieval": {
+        "p50_latency_ms": 295.47458500019275,
+        "p95_latency_ms": 491.0904289990867,
+        "p99_latency_ms": 1037.107082998773,
+        "avg_latency_ms": 327.59346936511355
+      },
+      "accuracy": {
+        "queries_total": 345,
+        "exact_matches": 276,
+        "exact_match_rate": "80.0%",
+        "semantic_matches": 276,
+        "semantic_match_rate": "80.0%"
+      },
+      "cost": {
+        "total_tokens": 2743835,
+        "estimated_cost_usd": "$0.5425"
+      },
+      "traceability": {
+        "lineage_available": true,
+        "source_attribution_rate": "100.0%"
+      }
+    }
+  },
+  "metadata": {
+    "expanded_data": true,
+    "ground_truth_path": "scripts/ground_truth_expanded.json",
+    "data_path": "scripts/benchmark_data_expanded.json",
+    "systems_benchmarked": [
+      "Deterministic (Cypher)",
+      "Mem0 (Semantic)",
+      "Graphiti (Zep)",
+      "Basic RAG (Vector)"
+    ]
+  },
+  "notes": {
+    "mem0_terminated": "Mem0 benchmark was terminated after 3 of 10 cities due to impractical ingestion time (~35 min extrapolated for 340 metrics)",
+    "mem0_data_loss": "105 input metrics condensed to 64 stored facts (39% data loss through LLM summarization)",
+    "mem0_accuracy_issues": "Manual testing revealed semantic confusion (wrong metrics returned) and possible data corruption"
+  }
+}
