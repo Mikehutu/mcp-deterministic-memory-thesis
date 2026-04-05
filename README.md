@@ -1,15 +1,18 @@
 # MCP Deterministic Memory – Thesis PoC
 
-> A proof-of-concept demonstrating Model Context Protocol (MCP) with a deterministic Neo4j memory layer for AI agents, using Statistics Finland open data.
+> Proof-of-concept code for a TAMK YAMK master's thesis. Benchmarks a deterministic Neo4j memory system against Mem0, Graphiti by Zep, and Basic RAG for structured statistical data retrieval via Model Context Protocol (MCP).
 
-**Tämä repositorio on liite TAMK:n YAMK-opinnäytetyöhön (2026).**
+**Tämä repositorio on opinnäytetyön liite (TAMK YAMK, 2026).**
 
 ---
 
 ## Thesis
 
-**Title:** Model Context Protocol (MCP) and Deterministic Memory: Opportunities for Utilizing Structured Data in AI Development
+**Finnish title:** Model Context Protocol (MCP) ja Deterministinen muisti: Mahdollisuudet strukturoidun datan hyödyntämiseen tekoälykehityksessä
 
+**English title:** Model Context Protocol (MCP) and Deterministic Memory: Opportunities for Utilizing Structured Data in AI Development
+
+**Author:** Mikko Huttunen  
 **Institution:** Tampere University of Applied Sciences (TAMK), Master's Degree Programme  
 **Year:** 2026  
 **Thesis PDF:** [Link to be added after publication]  
@@ -53,12 +56,12 @@ Results show that deterministic memory achieved 98.6% exact match accuracy at $0
 
 ## System Requirements
 
-| Component     | Version     | Notes                        |
-|---------------|-------------|------------------------------|
-| Python        | ≥ 3.11      | Tested on 3.11 and 3.12      |
-| Docker        | ≥ 24.0      | Docker Compose v2 required   |
-| Neo4j         | 5.26.0      | Community Edition sufficient |
-| OpenAI API    | Optional    | Only needed for Mem0/Graphiti comparison benchmarks |
+| Component  | Version  | Notes |
+|------------|----------|-------|
+| Python     | ≥ 3.11   | Tested on 3.11 and 3.12 |
+| Docker     | ≥ 24.0   | Docker Compose v2 required |
+| Neo4j      | 5.26.0   | Community Edition sufficient |
+| OpenAI API | Optional | Only needed for Mem0/Graphiti comparison benchmarks |
 
 Hardware: 8 GB RAM minimum (16 GB recommended for full benchmark with all 4 systems).
 
@@ -69,10 +72,9 @@ Hardware: 8 GB RAM minimum (16 GB recommended for full benchmark with all 4 syst
 ### 1. Clone and configure
 
 ```bash
-git clone <repository-url>
-cd thesis-poc
+git clone https://github.com/Mikehutu/mcp-deterministic-memory-thesis.git
+cd mcp-deterministic-memory-thesis
 
-# Copy environment template and fill in values
 cp .env.example .env
 # Edit .env — set at minimum NEO4J_PASSWORD
 ```
@@ -80,38 +82,44 @@ cp .env.example .env
 ### 2. Start infrastructure
 
 ```bash
+# Deterministic system only
 docker compose up -d neo4j
-# Wait ~30 seconds for Neo4j to be ready
-docker compose ps   # confirm neo4j is healthy
+
+# Full benchmark (all 4 systems)
+docker compose up -d
 ```
+
+Wait ~30 seconds, then verify: `docker compose ps`
 
 ### 3. Install Python dependencies
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate          # Linux/Mac
-# .venv\Scripts\activate           # Windows
+source .venv/bin/activate       # Linux/macOS
+# .venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
 ```
 
-### 4. Run the StatFin MCP Server
+### 4. Initialise Neo4j indices
 
 ```bash
-python -m statfin_server.server
+python scripts/setup_neo4j.py
 ```
 
-In a separate terminal:
-
-### 5. Run the Memory MCP Server
+### 5. Run the MCP servers
 
 ```bash
+# Terminal 1 — Statistics Finland data server
+python -m statfin_server.server
+
+# Terminal 2 — Deterministic memory server
 python -m memory_server.server
 ```
 
 ### 6. Connect with an MCP-compatible LLM client
 
-Add the servers to your Claude Desktop or other MCP client configuration:
+Add the servers to your Claude Desktop (or other MCP client) configuration:
 
 ```json
 {
@@ -119,116 +127,117 @@ Add the servers to your Claude Desktop or other MCP client configuration:
     "statfin-tool": {
       "command": "python",
       "args": ["-m", "statfin_server.server"],
-      "cwd": "/path/to/thesis-poc"
+      "cwd": "/path/to/mcp-deterministic-memory-thesis"
     },
     "memory-brain": {
       "command": "python",
       "args": ["-m", "memory_server.server"],
-      "cwd": "/path/to/thesis-poc"
+      "cwd": "/path/to/mcp-deterministic-memory-thesis"
     }
   }
 }
 ```
 
-### 7. (Optional) Run the full benchmark
+---
+
+## Reproducing the Benchmark
+
+The authoritative results are stored in `benchmark/results/benchmark_results_expanded.json`.  
+To re-run the benchmark from scratch:
 
 ```bash
-# Start all containers (Neo4j, Qdrant, Neo4j-Graphiti)
+# 1. Start all containers (all 4 systems need Neo4j ×2 + Qdrant)
 docker compose up -d
 
-# Set OPENAI_API_KEY in .env for Mem0 and Graphiti benchmarks
+# 2. Set OPENAI_API_KEY in .env (required for Mem0 and Graphiti)
+
+# 3. (Optional) Re-fetch live data from Statistics Finland
+python benchmark/fetch_expanded_data.py
+
+# 4. Run the full comparative benchmark
 python benchmark/comparative_benchmark.py --expanded
 
-# Deterministic system only (no API key needed)
-python benchmark/comparative_benchmark.py --expanded --systems deterministic
+# 5. Regenerate figures
+python benchmark/generate_visualizations.py
 ```
 
-See [benchmark/README.md](benchmark/README.md) for full reproduction instructions.
+To run **deterministic system only** (no OpenAI API key needed):
+
+```bash
+python benchmark/comparative_benchmark.py --expanded --systems deterministic
+```
 
 ---
 
 ## Project Structure
 
 ```
-thesis-poc/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── .env.example
-├── docker-compose.yml
-├── requirements.txt
-├── EXCLUDED_FILES.md
+mcp-deterministic-memory-thesis/
 │
-├── statfin_server/        # MCP server — Statistics Finland PxWeb API
-│   ├── server.py            # MCP tool definitions (FastMCP)
-│   ├── client.py            # PxWeb HTTP client
-│   └── README.md
+├── .env.example                  # Environment variable template
+├── docker-compose.yml            # Neo4j (×2) + Qdrant containers
+├── requirements.txt              # Python dependencies
 │
-├── memory_server/         # MCP server — Deterministic Neo4j memory
-│   ├── server.py            # MCP tool definitions (11 tools)
-│   ├── graphiti_client.py   # Neo4j client (no embeddings)
-│   ├── models.py            # Pydantic data schemas
-│   ├── extractors/          # Data extraction pipeline
-│   └── README.md
+├── statfin_server/               # MCP Server 1 — Statistics Finland
+│   ├── server.py                   # MCP tool definitions (FastMCP)
+│   └── client.py                   # PxWeb HTTP client
 │
-├── benchmark/             # Complete comparative evaluation
-│   ├── comparative_benchmark.py   # Runs all 4 memory systems
-│   ├── fetch_expanded_data.py     # Fetches live StatFin data
-│   ├── generate_visualizations.py # Generates figures
-│   ├── benchmark_data_expanded.json  # Input dataset (340 points)
+├── memory_server/                # MCP Server 2 — Deterministic Neo4j memory
+│   ├── server.py                   # MCP tool definitions
+│   ├── graphiti_client.py          # Neo4j Cypher client (no embeddings)
+│   ├── models.py                   # Pydantic data schemas
+│   └── extractors/                 # Data ingestion pipeline
+│       ├── base.py
+│       ├── registry.py
+│       └── statfin.py
+│
+├── benchmark/                    # Comparative evaluation
+│   ├── comparative_benchmark.py    # Runs all 4 memory systems
+│   ├── fetch_expanded_data.py      # Fetches live data from StatFin API
+│   ├── generate_visualizations.py  # Generates figures from results
+│   ├── benchmark_data_expanded.json  # Input dataset (340 data points)
 │   ├── ground_truth_expanded.json    # 355 ground truth queries
-│   ├── benchmark_config.md          # System parameters
 │   └── results/
-│       ├── benchmark_results_expanded.json   # Main results
-│       ├── benchmark_results_mem0_fixed.json # Mem0 corrected run
-│       ├── benchmark_results_mem0.json       # Mem0 initial run
-│       ├── benchmark_results_test.json       # Test run
-│       └── results_summary.md               # Human-readable summary
+│       └── benchmark_results_expanded.json  # Authoritative results (2026-02-04)
 │
-├── scripts/               # Utility scripts
-│   ├── setup_neo4j.py       # Initialize Neo4j indices (Graphiti)
-│   └── clear_neo4j.py       # Wipe Neo4j database
+├── scripts/
+│   ├── setup_neo4j.py            # Initialise Neo4j indices
+│   └── clear_neo4j.py            # Wipe database (for re-runs)
 │
 └── docs/
-    ├── architecture.md          # System design documentation
-    ├── neo4j-schema.md          # Graph database schema
-    ├── mcp-tools-spec.md        # Full MCP tool specifications
-    ├── ai-usage.md              # AI tool usage disclosure
-    ├── EVALUATION_REPORT.md     # Full thesis evaluation report
-    ├── graphrag_exclusion_rationale.md  # Why GraphRAG was excluded
-    └── figures/                 # Publication-quality charts (PNG + SVG)
+    └── figures/                  # Publication-quality charts (PNG + SVG)
         ├── accuracy_comparison.*
-        ├── latency_comparison.*
         ├── cost_comparison.*
+        ├── latency_comparison.*
         ├── performance_radar.*
         └── summary_table.*
 ```
 
 ---
 
-## License
+## Benchmark Results (Summary)
 
-MIT — see [LICENSE](LICENSE).
+Full raw data: [`benchmark/results/benchmark_results_expanded.json`](benchmark/results/benchmark_results_expanded.json)
+
+| System | Ingestion | Query p50 | Exact Match | Cost/query | Traceability |
+|--------|-----------|-----------|-------------|------------|--------------|
+| **Deterministic** | 3.6 s | **3.8 ms** | **98.6 %** | **$0.00** | 90 % |
+| Mem0 | ~625 s † | 335 ms | 50 % † | ~$0.0002 | 0 % |
+| Graphiti | 76.8 s | 309 ms | 0.0 % | ~$0.0004 | 100 % |
+| Basic RAG | 102.2 s | 295 ms | 80.0 % | ~$0.0005 | 100 % |
+
+† Mem0 terminated after 3/10 municipalities due to OpenAI rate limits; results are partial.
+
+---
 
 ## Citation
 
-If you use this code or benchmark data in your own research, please cite:
+If you refer to this repository in academic work:
 
-```
-[Author Name]. (2026). MCP Deterministic Memory – Thesis PoC.
-Master's Thesis, Tampere University of Applied Sciences.
-GitHub: <repository-url>
-```
+> Huttunen, M. (2026). *Model Context Protocol (MCP) ja Deterministinen muisti: Mahdollisuudet strukturoidun datan hyödyntämiseen tekoälykehityksessä* [Master's thesis, Tampere University of Applied Sciences]. https://github.com/Mikehutu/mcp-deterministic-memory-thesis
 
-BibTeX:
+---
 
-```bibtex
-@mastersthesis{author2026mcp,
-  author  = {[Author Name]},
-  title   = {Model Context Protocol (MCP) and Deterministic Memory:
-             Opportunities for Utilizing Structured Data in AI Development},
-  school  = {Tampere University of Applied Sciences (TAMK)},
-  year    = {2026},
-  url     = {[URN/URL after publication]}
-}
-```
+## License
+
+[MIT](LICENSE)
