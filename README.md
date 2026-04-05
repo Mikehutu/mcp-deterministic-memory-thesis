@@ -209,7 +209,6 @@ mcp-deterministic-memory-thesis/
         ├── accuracy_comparison.*
         ├── cost_comparison.*
         ├── latency_comparison.*
-        ├── performance_radar.*
         └── summary_table.*
 ```
 
@@ -227,6 +226,22 @@ Full raw data: [`benchmark/results/benchmark_results_expanded.json`](benchmark/r
 | Basic RAG | 102.2 s | 295 ms | 80.0 % | ~$0.0005 | 100 % |
 
 † Mem0 terminated after 3/10 municipalities due to OpenAI rate limits; results are partial.
+
+### Accuracy
+
+![Accuracy comparison](docs/figures/accuracy_comparison.png)
+
+### Query Latency
+
+![Latency comparison](docs/figures/latency_comparison.png)
+
+### Cost per Query
+
+![Cost comparison](docs/figures/cost_comparison.png)
+
+### Summary Table
+
+![Summary table](docs/figures/summary_table.png)
 
 ---
 
