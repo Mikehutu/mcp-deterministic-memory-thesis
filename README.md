@@ -2,21 +2,8 @@
 
 > Proof-of-concept code for a TAMK YAMK master's thesis. Benchmarks a deterministic Neo4j memory system against Mem0, Graphiti by Zep, and Basic RAG for structured statistical data retrieval via Model Context Protocol (MCP).
 
-**Tämä repositorio on opinnäytetyön liite (TAMK YAMK, 2026).**
 
 ---
-
-## Thesis
-
-**Finnish title:** Model Context Protocol (MCP) ja Deterministinen muisti: Mahdollisuudet strukturoidun datan hyödyntämiseen tekoälykehityksessä
-
-**English title:** Model Context Protocol (MCP) and Deterministic Memory: Opportunities for Utilizing Structured Data in AI Development
-
-**Author:** Mikko Huttunen  
-**Institution:** Tampere University of Applied Sciences (TAMK), Master's Degree Programme  
-**Year:** 2026  
-**Thesis PDF:** [Link to be added after publication]  
-**URN:** [URN to be added after publication]
 
 ### Abstract
 
@@ -225,7 +212,7 @@ Full raw data: [`benchmark/results/benchmark_results_expanded.json`](benchmark/r
 | Graphiti | 76.8 s | 309 ms | 0.0 % | ~$0.0004 | 100 % |
 | Basic RAG | 102.2 s | 295 ms | 80.0 % | ~$0.0005 | 100 % |
 
-† Mem0 terminated after 3/10 municipalities due to OpenAI rate limits; results are partial.
+† Mem0 terminated after 3/10 municipalities due to possible rate limits and time consume; results are partial.
 
 ### Accuracy
 
@@ -242,14 +229,6 @@ Full raw data: [`benchmark/results/benchmark_results_expanded.json`](benchmark/r
 ### Summary Table
 
 ![Summary table](docs/figures/summary_table.png)
-
----
-
-## Citation
-
-If you refer to this repository in academic work:
-
-> Huttunen, M. (2026). *Model Context Protocol (MCP) ja Deterministinen muisti: Mahdollisuudet strukturoidun datan hyödyntämiseen tekoälykehityksessä* [Master's thesis, Tampere University of Applied Sciences]. https://github.com/Mikehutu/mcp-deterministic-memory-thesis
 
 ---
 
