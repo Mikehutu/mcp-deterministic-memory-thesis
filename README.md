@@ -1,6 +1,6 @@
 # MCP Deterministic Memory – Thesis PoC
 
-> Proof-of-concept code for a TAMK YAMK master's thesis. Benchmarks a deterministic Neo4j memory system against Mem0, Graphiti by Zep, and Basic RAG for structured statistical data retrieval via Model Context Protocol (MCP).
+> Proof-of-concept code for a master's thesis. Benchmarks a deterministic Neo4j memory system against Mem0, Graphiti by Zep, and Basic RAG for structured statistical data retrieval via Model Context Protocol (MCP).
 
 
 ---
